@@ -3,7 +3,11 @@
     "description": "a basic app template for PHP",
     "type": "project",
     "require": {
-        "php": "^7.4"
+        "php": "^7.4",
+        "fabpot/goutte": "^3.2",
+        "duzun/hquery": "^1.6",
+        "php-curl-class/php-curl-class": "^8.0",
+        "php-activerecord/php-activerecord": "^1.2"
     },
     "license": "MIT",
     "authors": [
