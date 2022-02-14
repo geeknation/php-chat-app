@@ -1,0 +1,16 @@
+{
+    "name": "ianmukunya/app-template",
+    "description": "a basic app template for PHP",
+    "type": "project",
+    "require": {
+        "php": "^7.4"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ian Mukunya",
+            "email": "ianmukuya@yahoo.com"
+        }
+    ],
+    "minimum-stability": "beta"
+}

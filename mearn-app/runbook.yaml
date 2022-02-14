@@ -1,0 +1,10 @@
+- mkdir client
+- mkdir server
+- in client
+    - create-react-app
+    - npm install cors helmet body-parser morgan dotenv compression
+- in server
+    - npx express-generator
+- in the package.json for react, add the proxy key the the IP and port
+- refs
+  https://www.techomoro.com/how-to-create-a-react-frontend-express-backend-and-connect-them-together/
