@@ -1,0 +1,11 @@
+- ADD DASHBOARD UI TEMPLATES
+    - MATERIAL UI
+    - ALL GITHUB DASHBOARD FORKS
+
+- ADD USEFUL LIBRARIES FROM PAST PROJECTS
+    - JQUERY
+    - CSS 
+
+- REPLACE conf/ with API.S
+
+- ADD phpAuth lib for standard authenticaton
