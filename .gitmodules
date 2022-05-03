@@ -1,0 +1,3 @@
+[submodule "phpJQUapp/API.S"]
+	path = phpJQUapp/API.S
+	url = https://github.com/geeknation/API.S.git
