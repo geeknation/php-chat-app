@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "start": "node ./bin/www",
-    "build": "cd ../react-app/ && npm run build && cd .. && cp -R app/build/* server/app/",
+    "build": "cd ../react-app/ && npm run build && cd .. && cp -R react-app/build/* server/app/",
     "dev": "concurrently \"SET NODE_ENV=development SET PORT=3000 nodemon\" \" cd ../app/ && PORT=3001 npm start\""
   },
   "dependencies": {
@@ -22,15 +22,11 @@
     "morgan": "~1.9.1",
     "session-file-store": "^1.5.0",
     "uuid": "^8.3.0",
-    
-    
     "axios": "^0.19.2",
     "btoa": "^1.2.1",
     "btoa-atob": "^0.1.2",
     "buffer": "^5.4.3",
-    
     "date-and-time": "^0.12.0",
-   
     "https": "^1.0.0",
     "mysql": "^2.18.1",
     "needle": "^2.3.2",
