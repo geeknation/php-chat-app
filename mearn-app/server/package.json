@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "start": "node ./bin/www",
-    "build": "cd ../app/ && npm run build && cd .. && cp -R app/build/* server/app/",
+    "build": "cd ../react-app/ && npm run build && cd .. && cp -R app/build/* server/app/",
     "dev": "concurrently \"SET NODE_ENV=development SET PORT=3000 nodemon\" \" cd ../app/ && PORT=3001 npm start\""
   },
   "dependencies": {
