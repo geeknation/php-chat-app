@@ -1,10 +1,6 @@
-import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-let DEV_URL = '';
-if (process.env.NODE_ENV === 'development') {
-  DEV_URL = 'http://localhost:3000';
-}
+
 function App() {
   return (
     <div className="App">
