@@ -8,7 +8,9 @@
         "duzun/hquery": "^1.6",
         "php-curl-class/php-curl-class": "^8.0",
         "php-activerecord/php-activerecord": "^1.2",
-        "phpauth/phpauth": "dev-master"
+        "phpauth/phpauth": "dev-master",
+        "geocoder-php/google-maps-provider": "^4.6",
+        "php-http/guzzle6-adapter": "^2.0"
     },
     "license": "MIT",
     "authors": [
