@@ -3,8 +3,9 @@
     "description": "a basic app template for PHP",
     "type": "project",
     "require": {
-        "php": "^7.4",
-        "slim/slim": "4.*"
+        "php": "^7.4|^8.0",
+        "slim/slim": "4.*",
+        "phpauth/phpauth": "dev-master"
     },
     "license": "MIT",
     "authors": [

@@ -7,13 +7,23 @@ namespace Composer\Autoload;
 class ComposerStaticInitf90ba66314280e7489d3eae1f96ffc90
 {
     public static $files = array (
+        '0e6d7bf4a5811bfa5cf40c5ccd6fae6a' => __DIR__ . '/..' . '/symfony/polyfill-mbstring/bootstrap.php',
         '253c157292f75eb38082b5acb06f3f01' => __DIR__ . '/..' . '/nikic/fast-route/src/functions.php',
     );
 
     public static $prefixLengthsPsr4 = array (
+        'Z' => 
+        array (
+            'ZxcvbnPhp\\' => 10,
+        ),
         'S' => 
         array (
+            'Symfony\\Polyfill\\Mbstring\\' => 26,
             'Slim\\' => 5,
+        ),
+        'R' => 
+        array (
+            'ReCaptcha\\' => 10,
         ),
         'P' => 
         array (
@@ -21,6 +31,8 @@ class ComposerStaticInitf90ba66314280e7489d3eae1f96ffc90
             'Psr\\Http\\Server\\' => 16,
             'Psr\\Http\\Message\\' => 17,
             'Psr\\Container\\' => 14,
+            'PHPMailer\\PHPMailer\\' => 20,
+            'PHPAuth\\' => 8,
         ),
         'F' => 
         array (
@@ -29,9 +41,21 @@ class ComposerStaticInitf90ba66314280e7489d3eae1f96ffc90
     );
 
     public static $prefixDirsPsr4 = array (
+        'ZxcvbnPhp\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/bjeavons/zxcvbn-php/src',
+        ),
+        'Symfony\\Polyfill\\Mbstring\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/symfony/polyfill-mbstring',
+        ),
         'Slim\\' => 
         array (
             0 => __DIR__ . '/..' . '/slim/slim/Slim',
+        ),
+        'ReCaptcha\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/google/recaptcha/src/ReCaptcha',
         ),
         'Psr\\Log\\' => 
         array (
@@ -44,12 +68,20 @@ class ComposerStaticInitf90ba66314280e7489d3eae1f96ffc90
         ),
         'Psr\\Http\\Message\\' => 
         array (
-            0 => __DIR__ . '/..' . '/psr/http-message/src',
-            1 => __DIR__ . '/..' . '/psr/http-factory/src',
+            0 => __DIR__ . '/..' . '/psr/http-factory/src',
+            1 => __DIR__ . '/..' . '/psr/http-message/src',
         ),
         'Psr\\Container\\' => 
         array (
             0 => __DIR__ . '/..' . '/psr/container/src',
+        ),
+        'PHPMailer\\PHPMailer\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/phpmailer/phpmailer/src',
+        ),
+        'PHPAuth\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/phpauth/phpauth',
         ),
         'FastRoute\\' => 
         array (

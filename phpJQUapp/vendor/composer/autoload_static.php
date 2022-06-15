@@ -53,6 +53,10 @@ class ComposerStaticInitf90ba66314280e7489d3eae1f96ffc90
             'PHPMailer\\PHPMailer\\' => 20,
             'PHPAuth\\' => 8,
         ),
+        'L' => 
+        array (
+            'Location\\' => 9,
+        ),
         'H' => 
         array (
             'Http\\Promise\\' => 13,
@@ -141,6 +145,10 @@ class ComposerStaticInitf90ba66314280e7489d3eae1f96ffc90
         'PHPAuth\\' => 
         array (
             0 => __DIR__ . '/..' . '/phpauth/phpauth',
+        ),
+        'Location\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/mjaschen/phpgeo/src',
         ),
         'Http\\Promise\\' => 
         array (

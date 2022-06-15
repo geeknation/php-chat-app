@@ -10,7 +10,8 @@
         "php-activerecord/php-activerecord": "^1.2",
         "phpauth/phpauth": "dev-master",
         "geocoder-php/google-maps-provider": "^4.6",
-        "php-http/guzzle6-adapter": "^2.0"
+        "php-http/guzzle6-adapter": "^2.0",
+        "mjaschen/phpgeo": "^4.1"
     },
     "license": "MIT",
     "authors": [
