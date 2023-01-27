@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LAB</title>
+    <style>
+        /* align items horizontally */
+        .parent {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border: salmon thin;
+            
+        }
+
+        /* align items vertically */
+        /* .parent {
+            display: grid;
+            place-items: center;
+        } */
+
+        .child {
+            width: 100px;
+            background-color: blue;
+            height: 100px;
+            margin:1%;
+            overflow: hidden;
+           /* Width and height of the child div */
+        }
+    </style>
+</head>
+<body>
+    <div class="parent">
+        <div class="child">
+            Child Element
+        </div>
+
+        <div class="child">
+            Child Element
+        </div>
+
+        <div class="child">
+            Child Element
+        </div>
+
+
+    </div>
+    <script type="text/javascript">
+         var conn = new WebSocket('ws://localhost:8080/echo');
+        conn.onmessage = function(e) { console.log(e.data); };
+        conn.onopen = function(e) { conn.send('Hello Me!'); };
+    </script>
+</body>
+</html>

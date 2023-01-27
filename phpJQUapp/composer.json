@@ -7,12 +7,12 @@
         "fabpot/goutte": "^3.2",
         "duzun/hquery": "^1.6",
         "php-curl-class/php-curl-class": "^8.0",
-        "php-activerecord/php-activerecord": "^1.2",
         "phpauth/phpauth": "dev-master",
         "geocoder-php/google-maps-provider": "^4.6",
         "php-http/guzzle6-adapter": "^2.0",
         "mjaschen/phpgeo": "^4.1",
-        "cboden/ratchet": "^0.4.4"
+        "cboden/ratchet": "^0.4.4",
+        "smarty/smarty": "^3"
     },
     "license": "MIT",
     "authors": [
