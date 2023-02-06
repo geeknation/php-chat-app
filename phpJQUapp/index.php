@@ -11,7 +11,7 @@
     <title>App Template</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <script src="https://code.jquery.com/jquery-3.5.1.js"  integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
-   
+    <script src="//cdn.jsdelivr.net/npm/pouchdb@7.2.1/dist/pouchdb.min.js"></script>
     <style>
         #server-status-log{
             background-color: beige;
@@ -84,25 +84,7 @@
             </div>
         </div>
     </div>
-
-    <script>
-
-        var chatConn = new WebSocket('ws://localhost:8080/chat');   
-        chatConn.onmessage = function(e) { 
-            
-            var response = JSON.parse(e.data); 
-            $("#server-status-log").html(response.responseMessage);
-
-        };
-        chatConn.onopen = function(e) { 
-            
-            // chatConn.send('Hello Me!'); 
-
-
-        };
-
-        
-    </script>
-     <script src="js/main.js"></script>
+    <script src="js/chat.js"></script>
+    <script src="js/main.js"></script>
 </body>
 </html>
